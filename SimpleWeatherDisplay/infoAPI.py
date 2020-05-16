@@ -4,9 +4,9 @@ import tkinter
 
 print('______________________________ \n')
 
-weather_key = '6c2cb63ef0d845deadf60249201305'
+weather_key = 'use your code'
 url_weather = 'http://api.weatherapi.com/v1/current.json?key=' #not necessarily the base but for what we need is fine
-loc_key = '27d7640498bfbf48f4fd62b999f524d8'
+loc_key = 'use your code '
 url_geo = "http://api.ipstack.com/check?access_key="           #not necessarily the base but for what we need is fine
 
 
@@ -34,19 +34,4 @@ def location():
         print("Error has occured. Check Location services.")
 
 
-#def weather(region, city):
-#    send_url = url_weather + weather_key + '&q=' + city
-#    w_req = requests.get(send_url)
-#    w_json = json.loads(w_req.text)
-#    cloud = w_json['current']
 
-#    print(cloud['temp_f'])
-    #print(w_json)
-#    print(region)
-#    print(city)
-#    return cloud
-
-
-
-#if __name__ == "__main__":
-#    location()    
