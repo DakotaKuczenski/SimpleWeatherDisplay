@@ -1,0 +1,11 @@
+This application with the help of 2 api's will display the city youre in along with the state that city is located. 
+It will also display the temperate in fahrenheit. 
+
+requires you to make two keys. one for ipstack.com and the other for weatherapi.com 
+
+make sure your install PIL and tkinter.
+
+
+
+EXTRA: 
+The idea came to me when I was traveling a good deal and kept forgetting where I was waking up. 
