@@ -23,33 +23,3 @@ class app():
         root.mainloop()
 
 app=app()
-
-#root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-#canvas = Canvas(root, width=400, height=200)
-#canvas.pack()
-
-#image = ImageTk.PhotoImage(file="storm.jpg")
-#canvas.create_image(0, 0, image=image, anchor=NW)
-
-#canvas_id = canvas.create_text(10, 10, anchor="nw")
-#canvas.itemconfig(canvas_id, text="this is the textjhsbafjshbdfjhabsdfhbajsdbfjhabsdfjhbasjdfhbjashdbfjashbfdjhasfbjahsbdfjhabsfd ")
-#canvas.itemconfig(canvas_id, font=("Helvetica", 16), fg = 'white')
-#canvas.insert(canvas_id, 12, "new ")
-
-
-#pilfile = Image.open("storm.jpg")
-#Image = ImageTk.PhotoImage(pilfile)
-#ImageLabel = Label(root,image = Image, compound="center")
-#ImageLabel.image = Image
-#ImageLabel.pack()
